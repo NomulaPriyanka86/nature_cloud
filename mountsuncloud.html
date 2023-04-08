@@ -1,0 +1,199 @@
+ <html>
+    <head>
+    <style>
+        body
+        {
+            background-image: url(moun.png);
+              background-repeat: repeat-x;
+                    background-size: cover;
+         
+        }
+        
+        .one
+        {
+            width: 245px;
+            height: 185px;
+            background-image: url(cloud.png);
+             animation-name: cloud1;
+            background-repeat: repeat-x;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+          /*animation-delay: 0s;*/
+            animation-direction: alternate;
+            position: relative;
+        }
+           .two
+        {
+      width: 245px;
+            height: 185px;
+            background-image: url(cloud.png);
+             animation-name: cloud2;
+            background-repeat: repeat-x;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            position: relative;
+        }
+           .three
+        {
+            width: 245px;
+            height: 185px;
+            background-image: url(cloud.png);
+             animation-name: cloud3;
+            background-repeat: repeat-x;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            position: relative;
+        }
+            .four
+        {
+      width: 245px;
+            height: 185px;
+            background-image: url(sun.png);
+             animation-name: sun;
+            background-repeat: repeat-y;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            position: relative;
+        }
+        
+    
+         @keyframes cloud1{ 
+            
+            0%{
+        
+                left:0px;
+                top:0px;
+        
+            }
+               25%
+             {
+                 left: 200px;
+                 top:0px;
+             }
+             50%
+             {
+                 left: 400px;
+                 top:0px;
+             }
+              75%
+             {
+                 left: 600px;
+                 top:0px;
+             }
+              100%
+             {
+                 left: 800px;
+                 top:0px;
+             }
+             
+  @keyframes cloud2{ 
+            
+            
+            25%{
+        
+                left:0px;
+                top:200px;
+        
+            }
+               30%
+             {
+                 left: 200px;
+                 top:200px;
+             }
+      60%
+             {
+                 left: 400px;
+                 top:200px;
+             }
+              80%
+             {
+                 left: 600px;
+                 top:200px;
+             }
+              95%
+             {
+                 left: 800px;
+                 top:200px;
+             }
+                  
+                   @keyframes cloud3{ 
+                
+            10%{
+        
+                left:0px;
+                top:400px;
+        
+            }
+               30%
+             {
+                 left: 200px;
+                 top:400px;
+             }
+      60%
+             {
+                 left: 400px;
+                 top:400px;
+             }
+              80%
+             {
+                 left: 600px;
+                 top:400px;
+             }
+              95%
+             {
+                 left: 800px;
+                 top:400px;
+             }    
+      }
+                  
+                  
+                           @keyframes sun{ 
+            
+                  
+                   0%
+             {
+                left:600px;
+                top:400px;
+             }
+              25%
+             {
+                 left: 600px;
+                 top: 300px;
+             }
+             50%
+             {
+                  left: 600px;
+                 top: 200px;
+             }
+        
+            75%{
+        
+          left: 600px;
+                 top:100px;
+             }
+          
+        
+            
+               100%
+             {
+                 left: 600px;
+                 top:0px;
+             }
+        }
+            
+        </style>
+    </head>
+    <body>
+    <div class="one"> </div>
+    <div class="two"> </div>
+    <div class="three"> </div>
+        <div class="four"></div>
+
+    </body>
+</html>

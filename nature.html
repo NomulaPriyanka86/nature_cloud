@@ -1,0 +1,95 @@
+ <html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        body
+        {
+            background-image: url(mount.jpg);
+              background-repeat:no-repeat;
+                    background-size: cover;
+         
+        }
+        .fa-5x
+        {
+            color: aqua;
+        }
+        
+        .one
+        {
+            animation-name: cloud1;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: relative;
+        }
+           .two
+        {
+          
+             animation-name: cloud2;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction:reverse;
+            position: relative;
+        }
+           .three
+        {
+          
+             animation-name: cloud3;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+            animation-direction: alternate;
+            position: relative;
+        }
+            .four
+        {
+             animation-name: sun;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: relative;
+        }
+        
+    @keyframes cloud1{ 
+            
+            0%  { left:0px;top:0px;     }
+            50% { left: 1000px;top:0px; }
+            100%{left: 0px;top:0px;     }
+         
+                   }
+        
+  @keyframes cloud2{ 
+            
+            
+        0%     {left:1000px;top:50px; }
+        50%    {left: 0px;top:50px;   }
+        100%   {left: 1000px;top:50px;}
+                    }
+
+@keyframes cloud3{ 
+                
+         0%     {left:0px; top:100px; }
+         50%    {left: 1000px;top:100px;}
+         100%      {left: 0px;top:100px;}
+                  }
+                  
+                  
+@keyframes sun{ 
+                               
+        0%       {left:700px;top:-50px; }
+       30%       { left: 700px;top:-100px;}
+        60%      { left: 700px;top: -200px;}
+        100%     {left: 700px; top:-300px;}
+          
+                }
+            
+        </style>
+    </head>
+    <body>
+    <div class="one"><i class="fa fa-cloud fa-5x"></i> </div>
+    <div class="two"><i class="fa fa-cloud fa-5x"></i>  </div>
+    <div class="three"><i class="fa fa-cloud fa-5x"></i>  </div>
+        <div class="four"><i class="fa fa-sun-o" style="font-size:48px;color:red"></i></div>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+    <head>
+    <style>
+        .one
+        {
+            height: 500px;
+             width: 500px;
+               background-color: aqua;
+             display: flex;
+                align-items: center;
+                justify-content: center;
+               
+        }
+       .two{
+            animation-name: name;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+           font-size: 5px;
+           color: red;
+           
+            
+        }
+        
+
+        @keyframes name{
+            
+            0% {
+        opacity: 0;
+                font-size: 10px;
+    }
+    10%{
+      opacity: 1;
+         font-size: 20px;
+    }
+        20%{
+      opacity: 2;
+         font-size: 30px;
+    }
+           40%{
+      opacity: 4;
+         font-size: 40px;
+    }
+            50%{
+      opacity: 5;
+         font-size: 50px;
+    }
+            60%
+            {
+                opacity: 5;
+                font-size: 45px;
+            }
+            70%
+            {
+               opacity: 4;
+                font-size: 40px;  
+            }
+            80%{
+      opacity: 2;
+         font-size: 30px;
+    }
+            90%{
+      opacity: 1;
+         font-size: 20px;
+    }
+    100% {
+        opacity: 0;
+        font-size: 10px;
+    }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <div class="two"><h3>ANIMATION</h3></div>
+        </div>
+    </body>
+</html>
